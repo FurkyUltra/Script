@@ -657,7 +657,7 @@ function sex()
 
     local credits = serv:Channel("Credits")
     credits:Label("Forever4D#0001")
-    credits:Label("LOL")
+    credits:Label("Xnuxer#0082")
     credits:Button("Copy Discord Invite", function()
         setclipboard("https://arponag.xyz/Discord")
         DiscordLib:Notification("Notification", "Discord link copied to your clipboard", "Okay!")
