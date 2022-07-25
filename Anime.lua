@@ -302,7 +302,7 @@ function sex()
                     end
                 end
 
-                task.wait(0.1)
+                task.wait(2)
 
                 local args = {
                     [1] = getgenv().door
@@ -310,7 +310,7 @@ function sex()
                 game:GetService("ReplicatedStorage").endpoints.client_to_server.request_join_lobby:InvokeServer(unpack(
                     args))
 
-                    task.wait(0.1)
+                    task.wait(2)
 
                 local args = {
                     [1] = getgenv().door, -- Lobby 
@@ -321,7 +321,7 @@ function sex()
                 game:GetService("ReplicatedStorage").endpoints.client_to_server.request_lock_level:InvokeServer(unpack(
                     args))
 
-                    task.wait(0.1)
+                    task.wait(2)
 
                 local args = {
                     [1] = getgenv().door
